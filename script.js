@@ -49,7 +49,7 @@ const ramos = [
   { nombre: "Administración y Dirección de Mantenimiento", codigo: "IEIE70", semestre: 6, prerrequisitos: [] },
 
   // 4º AÑO - Semestre 7
-  { nombre: "Análisis de Señales y Sistemas", codigo: "IEIE77", semestre: 7, prerrequisitos: ["IEIE66", "INMT61"] },
+  { nombre: "Análisis de Señales y Sistemas I", codigo: "IEIE77", semestre: 7, prerrequisitos: ["IEIE66", "INMT61"] },
   { nombre: "Electrónica II", codigo: "IEIE73", semestre: 7, prerrequisitos: ["IEIE63"] },
   { nombre: "Instrumentación Industrial", codigo: "IEIE67", semestre: 7, prerrequisitos: ["IEIE63"] },
   { nombre: "Operación y Mantenimiento Industrial", codigo: "IEIE74", semestre: 7, prerrequisitos: ["IEIE70"] },
@@ -62,15 +62,15 @@ const ramos = [
   { nombre: "Teoría de Comunicaciones", codigo: "IEIE83", semestre: 8, prerrequisitos: ["IEIE77"] },
   { nombre: "Sistemas de Energía Eléctrica", codigo: "IEIE68", semestre: 8, prerrequisitos: ["IEIE54"] },
   { nombre: "Taller de Proyectos Eléctricos de Nuevas Energías", codigo: "IEIE89", semestre: 8, prerrequisitos: ["IEIE76"] },
-  { nombre: "Identificación de Sistemas", codigo: "EAIE85", semestre: 8, prerrequisitos: [] },
+  { nombre: "Análisis de Señales y Sistemas II", codigo: "EAIE85", semestre: 8, prerrequisitos: [] },
   { nombre: "Práctica Profesional II", codigo: "IEIEA2", semestre: 8, prerrequisitos: [] },
 
 // 5º AÑO - Semestre 9
   { nombre: "Proyecto en Ingeniera Eléctrica", codigo: "IEIE97", semestre: 9, prerrequisitos: [] },
-  { nombre: "Instrumentación Industrial Avanzada", codigo: "EAIE91", semestre: 9, prerrequisitos: [] },
-  { nombre: "Control de Procesos", codigo: "EAIE92", semestre: 9, prerrequisitos: [] },
-  { nombre: "Control Estabilizante", codigo: "EAIE93", semestre: 9, prerrequisitos: [] },
-  { nombre: "Control Avanzado", codigo: "EAIE94", semestre: 9, prerrequisitos: [] },
+  { nombre: "Electrónica III", codigo: "ECIE91", semestre: 9, prerrequisitos: [] },
+  { nombre: "Sistemas de Comunicaciones", codigo: "ECIE92", semestre: 9, prerrequisitos: [] },
+  { nombre: "Procesamiento Digital de Señales", codigo: "ECIE93", semestre: 9, prerrequisitos: [] },
+  { nombre: "Enlaces de RadioFrecuencia", codigo: "ECIE94", semestre: 9, prerrequisitos: [] },
 
   // Semestre 10
   { nombre: "Hito de Evaluación III", codigo: "IEIE98", semestre: 10, prerrequisitos: [] }
